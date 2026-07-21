@@ -1,0 +1,141 @@
+/* ===========================
+   BMDC Wayanad Trip 2026
+=========================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#0d0d0d;
+color:#fff;
+}
+
+.hero{
+background:url("wayanad.jpg") center center/cover no-repeat;
+min-height:100vh;
+position:relative;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.overlay{
+background:rgba(0,0,0,.65);
+width:100%;
+height:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:40px 20px;
+}
+
+.logo{
+width:150px;
+border-radius:50%;
+box-shadow:0 0 20px #FFD700;
+margin-bottom:20px;
+}
+
+h1{
+color:#FFD700;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.lead{
+font-size:20px;
+color:#fff;
+margin-bottom:30px;
+}
+
+.btn-warning{
+background:#FFD700;
+color:#000;
+font-weight:bold;
+border:none;
+padding:12px 35px;
+border-radius:30px;
+transition:.3s;
+}
+
+.btn-warning:hover{
+background:#fff;
+color:#000;
+}
+
+.trip-box{
+background:#1b1b1b;
+border:1px solid #FFD700;
+border-radius:15px;
+padding:20px;
+text-align:center;
+box-shadow:0 0 15px rgba(255,215,0,.25);
+height:100%;
+}
+
+.trip-box h4,
+.trip-box h3,
+.trip-box h2{
+color:#FFD700;
+margin-bottom:15px;
+}
+
+.card{
+background:#1b1b1b;
+border:1px solid #FFD700;
+border-radius:20px;
+color:#fff;
+}
+
+.form-control,
+textarea{
+background:#2a2a2a;
+border:1px solid #FFD700;
+color:#fff;
+}
+
+.form-control:focus,
+textarea:focus{
+background:#2a2a2a;
+color:#fff;
+border-color:#FFD700;
+box-shadow:none;
+}
+
+.list-group-item{
+background:#1b1b1b;
+color:#fff;
+border-color:#333;
+}
+
+footer{
+background:#000;
+color:#FFD700;
+padding:25px;
+text-align:center;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+
+.logo{
+width:120px;
+}
+
+h1{
+font-size:28px;
+}
+
+.lead{
+font-size:16px;
+}
+
+.trip-box{
+margin-bottom:20px;
+}
+
+}
